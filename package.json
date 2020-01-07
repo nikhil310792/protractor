@@ -1,0 +1,33 @@
+{
+  "name": "mpages",
+  "version": "1.0.0",
+  "description": "Mpages Automated Test Framework using Protractor and Java Script for Web based testing",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "node_modules/protractor/bin/protractor outputjs/conf.js"
+  },
+  "author": "Nikhil",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^3.5.0",
+    "@types/node": "^13.1.4",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.4",
+    "jasmine": "^3.5.0",
+    "log4js": "3.0.1",
+    "protractor": "^5.4.2",
+    "protractor-cucumber-framework": "^6.2.0",
+    "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^4.0.4",
+    "cucumber-parallel": "^2.0.3",
+    "protractor-html-reporter": "^1.3.2",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.0",
+    "typescript": "^3.6.4"
+  }
+}
